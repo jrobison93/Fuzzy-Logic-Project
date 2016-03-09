@@ -91,5 +91,12 @@ namespace Fuzzy_Logic_Project
             return 0.0;
         }
 
+        public static bool Normalize(double value)
+        {
+            if (value >= 0.5)
+                return true;
+            else
+                return false;
+        }
     }
 }
