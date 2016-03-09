@@ -16,5 +16,10 @@ namespace Fuzzy_Logic_Project
         {
             InitializeComponent();
         }
+
+        private void UpdateButton_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

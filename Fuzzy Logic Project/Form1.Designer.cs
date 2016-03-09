@@ -298,6 +298,7 @@
             this.UpdateButton.TabIndex = 16;
             this.UpdateButton.Text = "Update Recommendations";
             this.UpdateButton.UseVisualStyleBackColor = true;
+            this.UpdateButton.Click += new System.EventHandler(this.UpdateButton_Click);
             // 
             // Form1
             // 
