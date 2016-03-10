@@ -64,8 +64,8 @@ namespace Fuzzy_Logic_Project
 
         public static double CloseRange(double distance)
         {
-            int low = 10;
-            int platLow = 60;
+            int low = 5;
+            int platLow = 10;
             int platHigh = 150;
             int high = 200;
 

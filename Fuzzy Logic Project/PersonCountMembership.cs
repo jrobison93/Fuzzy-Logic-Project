@@ -10,10 +10,10 @@ namespace Fuzzy_Logic_Project
     {
         public static double Team(int people)
         {
-            int low = 20;
-            int platLow = 20;
-            int platHigh = 17;
-            int high = 15;
+            int low = 15;
+            int platLow = 17;
+            int platHigh = 20;
+            int high = 20;
 
             if (people < low)
                 return 0.0;
